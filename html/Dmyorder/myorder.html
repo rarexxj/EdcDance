@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-language" content="zh-CN"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="杭州博采网络科技股份有限公司-高端网站建设-http://www.bocweb.cn"/>
+    <meta name="renderer" content="webkit">
+    <title>EDC Funky Dance</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/add.css">
+    <script src="../../js/plug-in/jquery-1.11.1.min.js"></script>
+    <script src="../../js/main.js"></script>
+</head>
+
+<body style="background:#eeeeee;">
+<div class="myorder-box ">
+    <div class="my-ordernavbox">
+        <ul class="my-ordernav clearfix">
+            <li class="active"><span>待进行</span></li>
+            <li><span>已完成</span></li>
+            <li><span>已取消</span></li>
+        </ul>
+    </div>
+    <div class="myorder-main">
+
+    </div>
+</div>
+<div class="bottom-navbox">
+    <ul>
+        <li class="active bottom-nav2">
+            <a href="../Corder/kecheng.html">
+                <div class="bottom-nav2logo"></div>
+                <span>预约课程</span>
+            </a>
+        </li>
+        <li class="bottom-nav4">
+            <a href="##">
+                <div class="bottom-nav4logo"></div>
+                <span>会员中心</span>
+            </a>
+        </li>
+        <li class="bottom-nav1">
+            <a href="fujinmendian.html">
+                <div class="bottom-nav1logo"></div>
+                <span class="active">关于EDC</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+</body>
+<script>
+    $('.my-ordernav li').on('click',function () {
+        var url='myorder-main.html'
+        $(this).siblings('li').removeClass('active')
+        $(this).addClass('active');
+        $('.myorder-main').load(url)
+
+    })
+
+
+</script>
+</html>

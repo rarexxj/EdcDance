@@ -1,0 +1,487 @@
+.fujinmendian-box .swiper-container{
+    height:3.8rem;
+}
+.fujinmendian-box .swiper-wrapper{
+    height:100%;
+}
+.fujinmendian-box .swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fujinmendian-mainh2{
+    padding-left: 0.25rem;
+    height:0.9rem;
+    line-height:0.9rem;
+    font-size: 0.32rem;
+    color: #333333;
+    font-weight: bold;
+    background: #fff;
+    border-bottom: 0.01rem solid #eeeeee;
+}
+.fujinmendian-mainh2 span{
+    color: #333;
+}
+.fujinmendian-intl{
+    width:1.9rem;
+    height: 1.4rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-right: 0.2rem;
+}
+.fujinmendian-int{
+    padding:0.2rem 0 0.2rem 0.24rem;
+    border-bottom:0.01rem solid #eeeeee
+}
+.fujinmendian-intr{
+    width:4.8rem;
+}
+.fujinmendian-intr h2{
+    font-size: 0.36rem;
+    color: #333;
+    margin-bottom: 0.17rem;
+}
+.fujinmendian-intr h3{
+    font-size: 0.26rem;
+}
+.fujinmendian-intr span{
+    color: #f28d2a;
+    font-size: 0.26rem;
+}
+.bottom-navbox .navtwo1{
+    position: absolute;
+    bottom:1.4rem;
+    left:0.4rem;
+    display: block;
+    padding:0 0.1rem;
+    border:0.01rem solid #bfbfbf;
+    z-index: 110;
+    background:#fafafa;
+    border-radius: 0.06rem;
+    display: none;
+}
+.bottom-navbox .navtwo1 a{
+    display: block;
+    line-height: 0.87rem;
+    color: #666;
+    font-size: 0.26rem;
+    font-style:normal;
+    padding:0 0.24rem;
+    border-bottom:0.01rem solid #bfbfbf;
+}
+.bottom-navbox .navtwo1 a:last-of-type{
+    border-bottom:none
+}
+.bottom-navbox .navtwo1 i{
+    background: url("../img/logo99.png") no-repeat center;
+    width:0.17rem;
+    height: 0.14rem;
+    background-size: cover;
+    position: absolute;
+    bottom:-0.14rem;
+    left:50%;
+    margin-left: -0.085rem;
+}
+.bottom-navbox ul{
+}
+.bottom-navbox li{
+    width:33.333%;
+    position: relative;
+}
+.bottom-nav2logo{
+     margin-left: 1.1rem;
+     margin-bottom: 0.06rem;
+ }
+.bottom-nav4logo{
+    margin-left: 1.1rem;
+    margin-bottom: 0.06rem;
+}
+.bottom-nav1logo{
+    margin-left: 1.1rem;
+    margin-bottom: 0.06rem;
+}
+.bottom-navbox{
+    background: #3d3a39;
+}
+.bottom-navbox li.active{
+     background-color: transparent;
+}
+.bottom-navbox li.active span{
+    color: #f28d2a;
+}
+.bottom-navbox li.active .bottom-nav2logo{
+    background: url("../img/logo8.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+}
+.bottom-navbox li.active .bottom-nav4logo{
+    background: url("../img/logo12.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+}
+.bottom-navbox li.active .bottom-nav1logo{
+    background: url("../img/logo6.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+}
+.mendianxq-box .swiper-container{
+    height: 5.62rem;
+}
+.mendianxq-box .swiper-wrapper .swiper-slide{
+    height: 5.62rem;
+}
+.mendianxq-mainbox .mendtitle{
+    font-size: 0.42rem;
+    color: #333333;
+}
+.changdi-title{
+    padding:0 0.25rem;
+    border-top:0.2rem solid #eee;
+    border-bottom: 0.01rem solid #eee;
+}
+.kechengname{
+    font-size: 0.28rem;
+    color: #818085;
+    background: url("../img/logo91.png") no-repeat left center;
+    background-size: 0.28rem 0.25rem;
+    padding-left: 0.4rem;
+    margin-right: 0.2rem;
+}
+.yiyuy{
+    color: #999999;
+    font-size: 0.24rem;
+    display: block;
+    text-align: center;
+}
+.yuybox{
+    width:1.8rem;
+    position: absolute;
+    right: 0rem;
+    top: 0.3rem;
+}
+.loading{
+    height:0.9rem;
+    color: #999;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.9rem;
+    display: none;
+}
+
+
+/*玩命加载*/
+.spinner {
+    width: 2rem;
+    text-align: center;
+}
+
+.spinner > div {
+    width: 0.04rem;
+    height:0.04rem;
+    background-color: #999;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+    animation: bouncedelay 1.4s infinite ease-in-out;
+    /* Prevent first frame from flickering when animation starts */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0.0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+    0%, 80%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 40% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
+
+
+.yycg{
+    font-size: 0.32rem;
+    color: #000;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.16rem;
+}
+.seemy{
+    font-size: 0.24rem;
+    color: #f28d2a;
+    text-align: center;
+    display: block;
+}
+.eremkuang{
+    background: url("../img/logo56.png") center no-repeat;
+    background-size: 4.9rem 4.9rem;
+    width:100%;
+    height: 6rem;
+    position: relative;
+}
+.teacheryuek{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:7.5rem;
+    height: 3.04rem;
+}
+.teachername{
+    color: #fff;
+    font-size: 0.36rem;
+    display: block;
+    position: absolute;
+    left:0.4rem;
+    top:1.5rem;
+}
+.teahcherjies{
+    color: #6b6b6b;
+    font-size: 0.24rem;
+    display: block;
+    position: absolute;
+    left:0.4rem;
+    bottom:0.32rem;
+    width:5.5rem;
+    height:0.52rem;
+    line-height:0.27rem;
+    overflow: hidden;
+}
+.xiangq{
+    font-size: 0.24rem;
+    color: #fff;
+    position: absolute;
+    right:0.15rem;
+    bottom:0.4rem;
+    display: inline-block;
+    background: #f28d2a;
+    width:1.1rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.teacherbox{
+    padding-bottom:1rem;
+}
+.teaxqimg-box .swiper-container{
+    height: 5.5rem;
+}
+.teaxqbox{
+    padding:0.34rem 0.24rem 0.24rem 0.24rem;
+    border-bottom: 0.2rem solid #eee;
+}
+.teaxqtitle span{
+    color: #333333;
+    font-size: 0.42rem;
+}
+.teaxq-main .shensuotext{
+    font-size: 0.28rem;
+    line-height: 0.48rem;
+    color: #666;
+}
+.kecmainbox{
+    padding: 0.24rem;
+}
+.kectitle{
+    color: #333;
+    font-size: 0.34rem;
+    display: block;
+    line-height: 0.39rem;
+}
+.kectime{
+    font-size: 0.24rem;
+    color: #666;
+    display: block;
+    margin-top: 0.3rem;
+}
+.kecmaintitle{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #999;
+}
+.kecimg{
+    width:1.9rem;
+    height: 1.4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0.19rem;
+}
+.kecbtn{
+    width:1.46rem;
+    height: 0.58rem;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 0.58rem;
+    color: #fff;
+    background-color: #f28d2a;
+    display: inline-block;
+    margin-bottom: 0.16rem;
+}
+.kecxx{
+    width:2.75rem;
+}
+.kecxxbox{
+    padding:0.2rem 0;
+    border-bottom: #eee 0.01rem solid;
+}
+.yuybtnbox{
+    width:2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.huankebox{
+    padding:0.16rem 0.32rem;
+    box-shadow:0 -0.04rem 0.1rem #f4f4f4;
+    position: fixed;
+    bottom:0;
+    width: 6.86rem;
+}
+.yuytitle{
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #f28d2a;
+    font-size: 0.28rem;
+}
+.jilutip{
+    display: inline-block;
+    color: red;
+    padding:0.22rem 0 0.32rem 0.55rem;
+}
+.touxfile{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.qdjl{
+    background: url("../img/logo57.png") no-repeat center;
+    width:0.4rem;
+    height:0.4rem;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 0.32rem;
+    margin-right: 0.15rem;
+
+}
+.smrc{
+    background: url("../img/logo58.png") no-repeat center;
+    width:0.4rem;
+    height:0.4rem;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 0.32rem;
+    margin-right: 0.15rem;
+}
+.buy{
+    margin-bottom: 0.23rem;
+    position: relative;
+}
+.buybox{
+    padding:0.3rem 0.25rem;
+    margin-bottom: 0.1rem;
+    background: #fff;
+}
+.buy-int{
+    font-size: 0.28rem;
+    color: #999;
+    line-height: 0.5rem;
+}
+.buy-img{
+    width:2.72rem;
+    height: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.buy-wzbox{
+    margin-left: 0.34rem;
+    width:3.8rem;
+}
+.buy-wzbox .wztitle{
+    font-size: 0.34rem;
+    font-weight: bold;
+    color: #000;
+    width:100%;
+    margin-bottom: 0.23rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: block;
+}
+.buy-price{
+    font-size: 0.28rem;
+    color: #ff0000;
+    margin-bottom: 0.56rem;
+}
+.buy-price i{
+    color: #999999;
+    font-style: normal;
+}
+.buy-address{
+    background: url("../img/logo33.png") no-repeat left center;
+    background-size: 0.26rem 0.26rem;
+    padding-left: 0.38rem;
+    color: #666;
+    font-size: 0.26rem;
+    display: block;
+    width:1.8rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.buybtn{
+    width:1.6rem;
+    height: 0.6rem;
+    border-radius: 4px;
+    background: #f28d2a;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    display: block;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.nav4 .masklayer_div.on {
+    display: block;
+}
+.nav4 .masklayer_div {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 180;
+    background: rgba(0,0,0,0);
+}

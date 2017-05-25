@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-language" content="zh-CN"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="杭州博采网络科技股份有限公司-高端网站建设-http://www.bocweb.cn"/>
+    <meta name="renderer" content="webkit">
+    <title>EDC Funky Dance</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/add.css">
+    <script src="../../js/plug-in/jquery-1.11.1.min.js"></script>
+    <script src="../../js/main.js"></script>
+</head>
+
+<body style="background:#fff;">
+<div class="leimeiyuyue-box ">
+    <div class="leimeiyuyue-main">
+        <div class="leimeiyuyue-erweima">
+            <div class="eremkuang">
+                <img src="../../img/img3.png" alt="">
+            </div>
+            <span class="leimeiyuyue-erweimaspan">请在前台出示二维码签到</span>
+
+        </div>
+    </div>
+    <div class="leimeiyuyue-informationbox">
+        <ul class="marginbot2">
+            <li class="leimeiyuyue-informationbox2">
+                <div class="infleft">预约课程:</div>
+                <span class="infright chengse">活力瑜伽</span>
+            </li>
+            <li class="leimeiyuyue-informationbox2">
+                <div class="infleft">课程时间:</div>
+                <span class="infright">2016.10.30 19:00-19:45</span>
+            </li>
+            <li class="leimeiyuyue-informationbox2">
+                <div class="infleft">课程教练:</div>
+                <span class="infright">Umi</span>
+            </li>
+            <li class="leimeiyuyue-informationbox2">
+                <div class="infleft">课程门店:</div>
+                <span class="infright">联合大厦店</span>
+            </li>
+        </ul>
+        <p class="leimeiyuyue-tip"><i>*</i>课程开始当日00:00后不再支持取消预约</p>
+    </div>
+    <div class="clearfix huankebox">
+        <a class="leimeiyuyue-footer2 fl" href="##">取消预约</a>
+        <a class="leimeiyuyue-footer fr" href="../Corder/kecheng.html">我要换课</a>
+    </div>
+
+</div>
+<div class="zhezhao2">
+    <div class="zhezhaoceng"></div>
+    <div class="tankuang">
+        <div class="tankuangtop"></div>
+        <p>确认取消该预约？</p>
+        <div class="clearfix quxzhezhao">
+            <span class="tankuang-footer2 fr">确认</span>
+            <span class="tankuang-footer1 fl">取消</span>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+$(function () {
+    $('.leimeiyuyue-footer2').on('click',function (event) {
+        $('.zhezhao2').show();
+        event.preventDefault();
+    })
+    $('.tankuang-footer1').on('click',function () {
+        $('.zhezhao2').hide();
+    })
+    $('.tankuang-footer2').on('click',function () {
+        window.location.href='myorder.html'
+    })
+})
+
+</script>
+</html>

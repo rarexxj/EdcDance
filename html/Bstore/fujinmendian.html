@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-language" content="zh-CN"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="杭州博采网络科技股份有限公司-高端网站建设-http://www.bocweb.cn"/>
+    <meta name="renderer" content="webkit">
+    <title>EDC Funky Dance</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/add.css">
+    <script src="../../js/plug-in/jquery-1.11.1.min.js"></script>
+    <script src="../../js/plug-in/swiper.jquery.min.js"></script>
+    <script src="../../js/main.js"></script>
+</head>
+
+<body style="background:#fff; ">
+<div class="fujinmendian-box ">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <a href="##" class="swiper-slide" style="background-image: url('../../img/img01.png')"></a>
+            <a href="##" class="swiper-slide" style="background-image: url('../../img/img1.png')"></a>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="">
+
+        <h2 class="fujinmendian-mainh2"><span>门店中心</span>
+        </h2>
+        <a href="mendianxiangqing.html">
+            <div class="fujinmendian-int">
+                <div class="fujinmendian-intl" style="background-image: url('../../img/img01.png')"></div>
+                <div class="fujinmendian-intr">
+                    <h2>劲爆工厂西湖区联合大厦店</h2>
+                    <h3>地址:杭州市西湖区紫荆花路2号联合大厦</h3>
+                    <span>
+                        <span class="tel-logo">
+                        </span>13545236585
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="bottom-navbox">
+        <ul class="">
+            <li class="active bottom-nav2">
+                <div class="navelogo">
+                    <div class="bottom-nav2logo"></div>
+                    <span>预约课程</span>
+                </div>
+                <div class="navtwo1">
+                    <a href="lianjiemap.html">老师约课</a>
+                    <a>普通约课</a>
+                    <i></i>
+                </div>
+            </li>
+            <li class="bottom-nav4">
+                <div class="navelogo">
+                    <div class="bottom-nav4logo"></div>
+                    <span>会员中心</span>
+                </div>
+                <div class="navtwo1">
+                    <a href="lianjiemap.html">线上购买</a>
+                    <a href="../Corder/kecheng.html">我的课程</a>
+                    <a href="../Eperinformation/gerenxinxi.html">个人中心</a>
+                    <a href="##">其他门店</a>
+                    <i></i>
+                </div>
+            </li>
+            <li class="bottom-nav1">
+                <div class="navelogo">
+                    <div class="bottom-nav1logo"></div>
+                    <span class="active">关于EDC</span>
+                </div>
+                <div class="navtwo1">
+                    <a href="##">最新活动</a>
+                    <a href="##">老师介绍</a>
+                    <a href="##">公司介绍</a>
+                    <i></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+<script>
+    $(function () {
+        Swipers();
+        function Swipers() {
+            new Swiper('.swiper-container', {
+                direction: 'horizontal',
+                loop: true,
+                paginationClickable: true,
+                autoplay: 2500,
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                grabCursor: true,
+                autoplayDisableOnInteraction: false,
+                // 如果需要分页器
+                pagination: '.swiper-pagination'
+            });
+        }
+
+        $('.bottom-navbox li').on('click', function () {
+            var _index = $('.bottom-navbox li').index($(this));
+            if($('.navtwo1').eq(_index).css('display')=='block'){
+                $('.navtwo1').eq(_index).hide();
+            }else{
+                $('.navtwo1').hide();
+                $('.navtwo1').eq(_index).show();
+            }
+
+        })
+
+    })
+</script>
+</html>

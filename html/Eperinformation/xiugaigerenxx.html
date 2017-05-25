@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-language" content="zh-CN"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="杭州博采网络科技股份有限公司-高端网站建设-http://www.bocweb.cn"/>
+    <meta name="renderer" content="webkit">
+    <title>EDC Funky Dance</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/add.css">
+    <script src="../../js/plug-in/jquery-1.11.1.min.js"></script>
+    <script src="../../js/main.js"></script>
+</head>
+
+<body style="background: #fff">
+<div style="position: relative">
+    <div class="greybox">
+        <div class="xggrxximg"><img src="../../img/logo48.png" alt=""></div>
+    </div>
+    <span class="xxtimg">更改头像</span>
+
+    <input type="file" class="touxfile" >
+</div>
+<ul class="xiugaigerenxx-loginbox">
+    <li>
+        <input type="text" placeholder="请输入您的姓名">
+    </li>
+</ul>
+<div class="xiugaigerenxx-btnbox">
+    <input class="xiugaigerenxx-btn xiugaibtn" type="submit" value="完成">
+</div>
+
+</body>
+<script>
+    $(function () {
+        Portrait()
+        //上传头像
+        function Portrait() {
+            $('.touxfile').on('change', function () {
+                var imgData = {};
+                var file = $(this)[0].files[0];
+                //判断类型是不是图片
+                if (!/image\/\w+/.test(file.type)) {
+                    //toolTips(0, "请确保文件为图像类型", 1);
+                    $.oppo('请确保文件为图像类型', 1)
+                    return false;
+                }
+                var reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = function (e) {
+                    imgData['fileName'] = file.name;
+                    imgData['data'] = this.result; //就是base64
+                    //console.log(imgData);
+                    $.ajax({
+                        //contentType: false,    //不可缺
+                        //processData: false,    //不可缺
+                        url: '',
+                        data: imgData,
+                        type: 'Patch'
+                    }).done(function (json) {
+                        if (json.returnCode == 200) {
+                            var data = json.data;
+                            $('.xggrxximg img').attr('src', data.SmallThumbnail);
+                            $.oppo('修改成功！', 1)
+                        } else {
+                            $.oppo(json.msg, 1);
+                        }
+                    })
+                }
+            })
+        }
+
+
+    })
+</script>
+</html>

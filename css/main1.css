@@ -1,0 +1,3011 @@
+.floatl {
+    float: left;
+}
+
+.floatr {
+    float: right;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.overhidden {
+    overflow: hidden;
+}
+
+/*底部导航*/
+.bottom-navbox {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #262626;
+    height: 1rem;
+    overflow: hidden;
+}
+
+.bottom-navbox li {
+    width: 25%;
+    height: 1rem;
+    float: left;
+
+}
+
+.bottom-navbox li.active {
+    background: #d0004e;
+
+}
+
+.bottom-navbox li span {
+    color: #dbdbdb;
+    text-align: center;
+    display: block;
+
+}
+
+.bottom-navbox li span.active {
+    color: #fff;
+
+}
+
+.bottom-nav1logo {
+    background: url("../img/logo6.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+    margin-left: 0.78rem;
+    margin-top: 0.18rem;
+
+}
+
+.bottom-nav2logo {
+    background: url("../img/logo8.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+    margin-left: 0.78rem;
+    margin-top: 0.18rem;
+
+}
+
+.bottom-nav3logo {
+    background: url("../img/logo10.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+    margin-left: 0.78rem;
+    margin-top: 0.18rem;
+
+}
+
+.bottom-nav4logo {
+    background: url("../img/logo12.png") no-repeat;
+    width: 0.34rem;
+    height: 0.34rem;
+    background-size: cover;
+    margin-left: 0.78rem;
+    margin-top: 0.18rem;
+
+}
+
+/*链接地图*/
+.lianjiemap-map {
+    height: 8rem;
+    background: #eee;
+}
+
+.lianjiemap-btn {
+    background: #d0004e;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+    text-align: center;
+    height: 0.8rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 0.28rem;
+    display: block;
+}
+
+/*memberxy*/
+.bgcolor {
+    background-color: #252525;
+}
+
+.bgcolor2 {
+    background: #1e1e1e;
+}
+
+.memberxy-box {
+    background-color: #252525;
+}
+
+.memberxy-box h2 {
+    font-size: 0.32rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1.26rem;
+
+}
+
+.memberxy-box p {
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    color: #919191;
+    padding: 0 0.25rem;
+}
+
+/*dingweitiaozhuan*/
+.dingwei-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #16181a;
+    position: relative;
+
+}
+
+.dingwei-logo1 {
+    background: url("../img/logo1.png") no-repeat;
+    width: 3.49rem;
+    height: 0.92rem;
+    position: absolute;
+    background-size: contain;
+    top: 2.9rem;
+    left: 50%;
+    margin-left: -1.745rem;
+}
+
+.dingwei-logo2 {
+    background: url("../img/logo2.png") no-repeat;
+    width: 0.34rem;
+    height: 0.44rem;
+    background-size: cover;
+    position: absolute;
+    bottom: 2.38rem;
+    left: 50%;
+    margin-left: -0.17rem;
+}
+
+.dingwei-bottom {
+    position: absolute;
+    bottom: 1.29rem;
+    width: 100%;
+}
+
+.dingwei-bottomp {
+    text-align: center;
+    line-height: 0.48rem;
+}
+
+.dingwei-bottomp h2, .dingwei-bottomp span {
+    color: #fff;
+    font-size: 0.24rem;
+}
+
+.dingwei-bottompchaxunspan {
+    display: block;
+}
+
+.loader {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    right:-0.34rem;
+    top:0.06rem;
+}
+
+.dingwei-bottompdian {
+    display: inline-block;
+    float: left;
+    width: 0.4rem;
+    height: 100%;
+}
+
+.dingwei-bottompdian span {
+    padding: 0 0.02rem;
+}
+
+.dingwei-bottompspan {
+    float: left;
+    margin-right:0.1rem;
+}
+
+.dingwei-bottompbox {
+    text-align: center;
+    position: relative;
+}
+
+.dingwei-bottompbox {
+    display: inline-block;
+}
+
+/*跳动*/
+
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.ball-pulse > div:nth-child(0) {
+    -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div:nth-child(1) {
+    -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div:nth-child(2) {
+    -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div:nth-child(3) {
+    -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div {
+    background-color: #dce6ee;
+    width: 2px;
+    height:2px;
+    border-radius: 100%;
+    margin: 1px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+}
+
+
+@-webkit-keyframes twinkling {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+.dingwei-logo2 {
+    -webkit-animation: twinkling 1s infinite ease-in-out;
+}
+
+/*附近门店*/
+.fujinmendian-box {
+
+}
+
+.fujinmendian-main {
+
+}
+
+.fujinmendian-mainh2 {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #252525;
+    overflow: hidden;
+
+}
+
+.fujinmendian-mainh2 img {
+    float: left;
+    margin-top: 0.22rem;
+    margin-left: 0.24rem;
+    margin-right: 0.2rem;
+    width: 0.24rem;
+}
+
+.fujinmendian-mainh2 span {
+    font-size: 0.28rem;
+    color: #fff;
+    float: left;
+}
+
+.fujinmendian-int {
+    padding: 0.34rem 0 0.34rem 0.24rem;
+    overflow: hidden;
+    border-bottom: 1px solid #282828;
+}
+
+.fujinmendian-intl {
+    width: 1.24rem;
+    height: 1.24rem;
+    float: left;
+    margin-right: 0.29rem;
+    border-radius: 50%;
+}
+
+.fujinmendian-intr {
+    float: left;
+    color: #fff;
+    line-height: 1;
+}
+
+.fujinmendian-intr h2 {
+    font-size: 0.34rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+}
+
+.fujinmendian-intr h3 {
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #7f7f7f;
+}
+
+.fujinmendian-intr .tel-logo {
+    background: url("../img/logo5.png") no-repeat;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 0.21rem;
+
+}
+
+.fujinmendian-intr span {
+    color: #d0004e;
+
+}
+
+/*门店详情*/
+.swiper-container {
+    width: 7.5rem;
+    height: 3rem;
+
+}
+
+.mendianxq-box .swiper-wrapper .swiper-slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 7.5rem;
+    height: 3rem;
+}
+
+.mendianxq-mainbox {
+    padding: 0.08rem 0.25rem 0.5rem 0.25rem;
+}
+
+.logo14 {
+    background: url("../img/logo14.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.logo15 {
+    background: url("../img/logo15.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.logo16 {
+    background: url("../img/logo16.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.logo17 {
+    background: url("../img/logo17.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.logo18 {
+    background: url("../img/logo18.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.changdi-title span, .lianxifs-title span, .dizhi-title span, .zhuyisx-title span, .jianshenbz-title span {
+    float: left;
+    color: #fff;
+    font-size: 0.28rem;
+}
+
+.changdi-title, .lianxifs-title, .dizhi-title, .zhuyisx-title, .jianshenbz-title {
+    overflow: hidden;
+    line-height: 0.66rem;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.changdi-main p {
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.changdi-main p.log {
+    height: auto;
+}
+
+.changdi-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.changdi-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.zhuyisx-main p {
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.zhuyisx-main p.log {
+    height: auto;
+}
+
+.zhuyisx-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.zhuyisx-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lianxifs-tel {
+    font-size: 0.24rem;
+    color: #898989;
+    line-height: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+.dizhi-xx {
+    color: #898989;
+    line-height: 0.5rem;
+    display: block;
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+}
+
+.dizhi-map {
+    display: block;
+    color: #e7bc85;
+    line-height: 0.5rem;
+}
+
+.jianshenbz-main1 {
+    width: 5.82rem;
+    height: 0.72rem;
+    background: url("../img/buzhou1.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 0.56rem;
+}
+
+.jianshenbz-main2 {
+    width: 5.82rem;
+    height: 0.72rem;
+    background: url("../img/buzhou2.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 0.56rem;
+
+}
+
+.jianshenbz-main3 {
+    width: 5.82rem;
+    height: 0.72rem;
+    background: url("../img/buzhou3.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 0.56rem;
+}
+
+.mendianxq-yuyue {
+    height: 0.88rem;
+    background: #d0004e;
+    font-size: 0.32rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.88rem;
+    display: block;
+}
+
+.tianxie-logo1 {
+    background: url("../img/logo1.png") no-repeat;
+    width: 3.49rem;
+    background-size: cover;
+    background-position: center;
+    height: 0.92rem;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+}
+
+.tianxie-loginbox {
+    padding: 0 0.85rem;
+    margin-top: 1.7rem;
+}
+
+.tianxie-loginbox li {
+    border-bottom: 1px solid #515151;
+    line-height: 0.92rem;
+}
+
+.tianxie-loginbox li input {
+    background: none;
+    border: none;
+    line-height: 0.92rem;
+    font-size: 0.24rem;
+    width: 100%;
+    color: #f7f7f7;
+}
+
+.posrelative {
+    position: relative;
+}
+
+.tianxie-loginbox .yanzhengma {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #e7bc85;
+}
+
+.tianxie-btnbox {
+    padding: 0 0.85rem;
+    height: 0.8rem;
+    margin-top: 0.55rem;
+
+}
+
+.tianxie-btn {
+    background: #d0004e;
+    border-radius: 4px;
+    font-size: 0.32rem;
+    color: #fff;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+/*课程购买*/
+
+.kechenggoumai-box {
+
+}
+
+.kechenggoumai-main {
+
+}
+
+.kechenggoumai-title {
+    font-size: 0.28rem;
+    height: 0.82rem;
+    text-align: center;
+    line-height: 0.82rem;
+    background: #222222;
+    color: #fff;
+}
+
+.kechenggoumai-int {
+    padding: 0.34rem 0 0.34rem 0.24rem;
+    overflow: hidden;
+    border-bottom: 1px solid #282828;
+    background: #252525;
+    margin-bottom: 0.16rem;
+}
+
+.kechenggoumai-intl {
+    width: 1.24rem;
+    height: 1.24rem;
+    float: left;
+    margin-right: 0.29rem;
+    border-radius: 50%;
+}
+
+.kechenggoumai-intr {
+    float: left;
+    color: #fff;
+    line-height: 1;
+}
+
+.kechenggoumai-intr h2 {
+    font-size: 0.28rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+}
+
+.kechenggoumai-intr h3 {
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #7f7f7f;
+}
+
+.kechenggoumai-intr .tel-logo {
+    background: url("../img/logo5.png") no-repeat;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 0.21rem;
+}
+
+.kechenggoumai-intr span {
+    color: #d0004e;
+    font-size: 0.24rem;
+}
+
+.kechenggoumai-wait {
+    padding: 0 0.25rem 0.4rem 0.25rem;
+    background: #252525;
+    margin-bottom: 1px;
+}
+
+.kechenggoumai-wait h2 {
+    line-height: 0.9rem;
+    height: 0.9rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #d0004e;
+}
+
+.kechenggoumai-wait span {
+    color: #898989;
+    line-height: 0.5rem;
+}
+
+.kechenggoumai-informationbox {
+    background: #252525;
+}
+
+.kechenggoumai-informationbox .infleft {
+    font-size: 0.28rem;
+    color: #fff;
+    float: left;
+}
+
+.kechenggoumai-informationbox .infright {
+    font-size: 0.28rem;
+    color: #cccccc;
+    float: right;
+}
+
+.kechenggoumai-informationbox ul {
+    padding: 0 0.25rem;
+    margin-bottom: 1px;
+}
+
+.kechenggoumai-informationbox li {
+
+    border-bottom: 1px solid #2c2c2c;
+    line-height: 0.74rem;
+    padding-top: 0.2rem;
+    overflow: hidden;
+
+}
+
+.kechenggoumai-informationbox1 div {
+
+    float: left;
+
+}
+
+.kechenggoumai-informationbox1 span {
+    font-size: 0.24rem;
+    padding: 0.12rem 0.22rem;
+    color: #d0004e;
+    border-radius: 6px;
+    border: 1px solid #d0004e;
+    float: right;
+    line-height: 1;
+    margin-top: 0.12rem;
+
+}
+
+.marginbot {
+    margin-bottom: 1px;
+}
+
+.kechenggoumai-btn {
+    padding: 0 1.14rem;
+    overflow: hidden;
+    padding-top: 0.4rem;
+    background: #252525;
+}
+
+.kechenggoumai-btnl {
+    padding: 0.18rem 0.62rem;
+    border: 1px solid #e7bc85;
+    border-radius: 6px;
+    color: #e7bc85;
+    float: left;
+}
+
+.kechenggoumai-btnr {
+    padding: 0.18rem 0.62rem;
+    border: 1px solid #d0004e;
+    border-radius: 6px;
+    color: #d0004e;
+    float: right;
+}
+
+.kechenggoumai-recharge {
+    color: #e7bc85;
+    clear: both;
+    text-align: center;
+    display: block;
+    line-height: 1.1rem;
+}
+
+.kechenggoumai-tip {
+    color: #898989;
+    line-height: 0.5rem;
+    padding: 0.25rem;
+}
+
+.kechenggoumai-footer {
+    height: 0.9rem;
+    background: #d0004e;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #fff;
+    display: block;
+}
+
+/*购买成功*/
+.goumaichenggong-logobox {
+    height: 2.15rem;
+    background: #222222;
+    color: #fff;
+    padding-top: 0.75rem;
+}
+
+.goumaichenggong-logo24 {
+    background: url("../img/logo24.png") no-repeat;
+    width: 1.2rem;
+    height: 1.4rem;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.goumaichenggong-erweima {
+    padding-top: 0.8rem;
+    padding-bottom: 1.1rem;
+    background: #252525;
+}
+
+.goumaichenggong-erweima img {
+    display: block;
+    margin: 0 auto;
+    width: 2.7rem;
+    height: 2.7rem;
+
+}
+
+.goumaichenggong-erweimaspan {
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    line-height: 0.7rem;
+}
+
+.goumaichenggong-erweimatitle {
+    margin: 0 auto;
+    text-align: center;
+    width: 6rem;
+    color: #7f7f7f;
+    line-height: 0.52rem;
+}
+
+.goumaichenggong-erweimatitle a {
+    color: #e7bc85;
+}
+
+.goumaichenggong-main {
+}
+
+.goumaichenggong-int {
+    padding: 0.34rem 0 0.34rem 0.24rem;
+    overflow: hidden;
+    border-bottom: 1px solid #282828;
+    background: #252525;
+    margin-bottom: 0.02rem;
+}
+
+.goumaichenggong-intl {
+    width: 1.24rem;
+    height: 1.24rem;
+    float: left;
+    margin-right: 0.29rem;
+    border-radius: 50%;
+}
+
+.kechenggoumai-intr {
+    float: left;
+    color: #fff;
+    line-height: 1;
+}
+
+.goumaichenggong-intr h2 {
+    font-size: 0.28rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+
+.goumaichenggong-intr h3 {
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #7f7f7f;
+}
+
+.goumaichenggong-intr span {
+    color: #d0004e;
+    font-size: 0.24rem;
+}
+
+/*购买失败*/
+.goumaishibai-logobox {
+    background: #222222;
+    color: #fff;
+    padding-top: 0.75rem;
+}
+
+.goumaishibai-main .logo25 {
+    background: url("../img/logo25.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1.2rem;
+    height: 1.4rem;
+    margin: 0 auto;
+    margin-bottom: 0.4rem;
+}
+
+.goumaishibai-title {
+    margin: 0 auto;
+    text-align: center;
+    width: 6rem;
+    color: #7f7f7f;
+    line-height: 0.52rem;
+}
+
+.goumaishibai-logobox a {
+    color: #e7bc85;
+    text-align: center;
+    display: block;
+    line-height: 2.1rem;
+}
+
+/*课程详情*/
+.kechengxq-intro {
+    padding: 0rem 0.25rem 0rem 0.25rem;
+    background: #252525;
+}
+
+.kechengxq-intro li {
+    overflow: hidden;
+    line-height: 0.7rem;
+    border-bottom: 1px solid #2c2c2c;
+    padding-top: 0.15rem;
+}
+
+.logo26 {
+    background: url("../img/logo26.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.2rem;
+    margin-right: 0.25rem;
+}
+
+.logo27 {
+    background: url("../img/logo27.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.2rem;
+    margin-right: 0.25rem;
+}
+
+.logo28 {
+    background: url("../img/logo28.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.2rem;
+    margin-right: 0.25rem;
+}
+
+.logo43 {
+    background: url("../img/logo43.png") no-repeat;
+    width: 0.34rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.2rem;
+    margin-right: 0.25rem;
+}
+
+.kechengxq-intro li span {
+    float: left;
+    color: #898989;
+}
+
+.kechengxq-intro li span a {
+    color: #e7bc85;
+}
+
+.mendianxq-mainbox {
+    padding: 0.08rem 0.25rem 0.5rem 0.25rem;
+}
+
+.logo29 {
+    background: url("../img/logo29.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.logo30 {
+    background: url("../img/logo30.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.logo31 {
+    background: url("../img/logo31.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.img-logo {
+    float: right;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+}
+
+.kechengxq-main p {
+    padding-top: 0.1rem;
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.kechengxq-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.kechengxq-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.kechengxq-main p.log {
+    height: auto;
+}
+
+.kechengjieshao-main p.log {
+    height: auto;
+}
+
+.xunlianjieguo-main p.log {
+    height: auto;
+}
+
+.FAQ-main p.log {
+    height: auto;
+}
+
+.zhuyishixiang-main p.log {
+    height: auto;
+}
+
+.kechengjieshao {
+    margin-top: 0.29rem;
+}
+
+.kechengjieshao img {
+    width: 3.4rem;
+    height: 2.0rem;
+}
+
+.kechengjieshao-choose {
+    height: 0.85rem;
+    line-height: 0.85rem;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.kechengjieshao-choose a {
+    color: #e7bc85;
+    margin-right: 0.2rem;
+}
+
+.kechengjieshao-main p {
+    padding-top: 0.1rem;
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.kechengjieshao-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.kechengjieshao-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.xunlianjieguo-main p {
+    padding-top: 0.1rem;
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.xunlianjieguo-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.xunlianjieguo-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo32 {
+    background: url("../img/logo32.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.28rem;
+    height: 0.28rem;
+    float: left;
+    margin-top: 0.26rem;
+}
+
+.shiyongrenqun span {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+    color: #fff;
+    float: left;
+}
+
+.shiyongrenqun a {
+    color: #898989;
+    float: left;
+}
+
+.shiyongrenqun {
+    line-height: 0.79rem;
+    border-bottom: 1px dashed #323232;
+    overflow: hidden;
+}
+
+.FAQ {
+    line-height: 0.79rem;
+    border-bottom: 1px dashed #323232;
+    overflow: hidden;
+}
+
+.FAQ span {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+    color: #fff;
+    float: left;
+}
+
+.FAQ-main p {
+    padding-top: 0.1rem;
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.FAQ-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.FAQ-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*.FAQ-main p.active {*/
+/*height: 1.5rem;*/
+/*overflow: hidden;*/
+/*}*/
+
+.zhuyishixiang {
+    line-height: 0.79rem;
+    border-bottom: 1px dashed #323232;
+    overflow: hidden;
+}
+
+.zhuyishixiang span {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+    color: #fff;
+    float: left;
+}
+
+.zhuyishixiang-main p {
+    padding-top: 0.1rem;
+    line-height: 0.5rem;
+    color: #898989;
+    font-size: 0.24rem;
+    min-height: 1.2rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.zhuyishixiang-main .logo22 {
+    background: url("../img/logo22.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 0.25rem;
+    height: 0.12rem;
+    margin-left: 3.36rem;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+}
+
+.zhuyishixiang-main .logo22.up {
+    background: url("../img/logo23.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.kechengxiangqing-yuyue1 {
+    height: 0.88rem;
+    background: #d0004e;
+    font-size: 0.32rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.88rem;
+    width: 60%;
+    float: left;
+}
+
+.kechengxiangqing-yuyue2 {
+    height: 0.88rem;
+    background: #000000;
+    font-size: 0.32rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.88rem;
+    width: 40%;
+    float: left;
+}
+
+.kechengxiangqing-footer {
+    overflow: hidden;
+}
+
+/*莱美课程*/
+.kecheng-title {
+    font-size: 0.28rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    background: #252525;
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.kecheng-location {
+    background: url("../img/logo33.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    margin-top: 0.25rem;
+    margin-right: 0.12rem;
+    margin-left: 0.25rem;
+}
+
+.kecheng-address {
+    font-size: 0.28rem;
+    line-height: 0.82rem;
+    float: left;
+    margin-right: 0.3rem;
+}
+
+.kecheng-searchinput {
+    width: 4.8rem;
+    height: 0.52rem;
+    color: #fff;
+    background: #303030;
+    border: none;
+    padding-left: 0.2rem;
+    border-radius: 4px;
+    line-height: 0.52rem;
+    float: left;
+    margin-top: 0.15rem;
+
+}
+
+.logo34 {
+    background: url("../img/logo34.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    float: right;
+    margin-top: 0.26rem;
+    margin-right: 0.22rem;
+}
+
+.kecheng-banner {
+    position: relative;
+}
+
+.kecheng-banner-locationbox {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /*opacity: 0.5;*/
+    /*filter:Alpha(opacity=50);*/
+}
+
+.kecheng-banner-locationbox2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0.8rem;
+}
+
+.kecheng-banner img {
+    height: 4.65rem;
+}
+
+.banner-locationl .banner-address, .banner-locationr .banner-address {
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+.banner-locationl {
+    line-height: 0.82rem;
+    margin-left: 0.25rem;
+}
+
+.banner-locationr {
+    margin-right: 0.25rem;
+    line-height: 0.82rem;
+
+}
+
+.banner-location {
+    background: url("../img/logo35.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    margin-top: 0.25rem;
+    margin-right: 0.12rem;
+}
+
+.banner-address1 {
+    font-size: 0.28rem;
+    float: left;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    margin-top: 0.25rem;
+    -webkit-appearance: none;
+    line-height: 1;
+    display: inline-block;
+}
+
+.banner-address1 option {
+    background: #000;
+}
+
+.banner-address {
+    font-size: 0.28rem;
+    line-height: 0.82rem;
+    float: left;
+}
+
+.kecheng-contentbox {
+}
+
+.kechengtimebox {
+    width: 72%;
+    height: 0.72rem;
+    background: #252525;
+    line-height: 0.72rem;
+    margin-left: 0;
+    float: left;
+}
+
+.kecheng-content {
+    float: right;
+}
+
+.kechengtimebox ul li {
+    width: 16.6%;
+    text-align: center;
+    color: #666;
+    font-size: 0.26rem;
+    float: left;
+    position: relative;
+
+}
+
+.kecheng-contentbox .swiper-container .swiper-wrapper {
+    height: 0.72rem;
+}
+
+.kecheng-content {
+    line-height: 0.72rem;
+    height: 0.72rem;
+    background: #252525;
+    width: 28%;
+}
+
+.kecheng-content .kecheng-contentsijiao, .kecheng-content .kecheng-contenttuanke {
+    text-align: center;
+    color: #666;
+    font-size: 0.26rem;
+    width: 0.98rem;
+    float: left;
+}
+
+.kechengtimeboxul {
+    padding-left: 0.25rem;
+
+}
+
+.logo39 {
+    background: url("../img/logo39.png") no-repeat;
+    width: 0.28rem;
+    height: 0.28rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.24rem;
+}
+
+.kecheng-int {
+    padding: 0.34rem 0 0.34rem 0.24rem;
+    overflow: hidden;
+    border-bottom: 1px solid #282828;
+    margin-bottom: 0.16rem;
+    position: relative;
+}
+
+.kecheng-intl {
+    width: 1.24rem;
+    height: 1.24rem;
+    float: left;
+    margin-right: 0.29rem;
+    border-radius: 50%;
+}
+
+.kecheng-intr {
+    float: left;
+    color: #fff;
+    line-height: 1;
+
+}
+
+.kecheng-intr h2 {
+    font-size: 0.34rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+}
+
+.kecheng-intr h3 {
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #7f7f7f;
+}
+
+.kecheng-intr .kecheng-intrspan {
+    color: #d0004e;
+    font-size: 0.24rem;
+}
+
+.kecheng-intrspan i {
+    color: #7f7f7f;
+    font-style: normal;
+}
+
+.kecheng-contentbox .quanbox {
+    background: url("../img/logo41.png") no-repeat;
+    width: 0.92rem;
+    height: 0.92rem;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -0.08rem;
+    left: -0.03rem;;
+    z-index: 100;
+}
+
+.kechengxq-main .img-logo img {
+    width: 1.24rem;
+    height: 1.32rem;
+    border-radius: 50%;
+}
+
+.logo42 {
+    background: url("../img/logo42.png") no-repeat;
+    width: 0.33rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.18rem;
+    margin-right: 0.2rem;
+}
+
+.kecheng-contentbox .quanbox .data {
+    font-size: 0.2rem;
+    color: #666;
+    display: block;
+    line-height: 1;
+    margin-top: 0.2rem;
+
+}
+
+.kecheng-contentbox .quanbox .day {
+    font-size: 0.24rem;
+    color: #fff;
+    display: block;
+    line-height: 1;
+    margin-top: 0.05rem;
+
+}
+
+.kecheng-contentbox .quanbox.hide {
+    display: none;
+}
+
+.kecheng-contentsijiao {
+    position: relative;
+}
+
+.kecheng-contenttuanke {
+    position: relative;
+}
+
+.kecheng-contentsijiaobox {
+    background: url("../img/logo41.png") no-repeat;
+    width: 0.92rem;
+    height: 0.92rem;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -0.08rem;
+    left: 0.03rem;;
+    z-index: 100;
+}
+
+.kecheng-contentsijiaobox .wenz {
+    color: #666;
+    line-height: 0.92rem;
+    text-align: center;
+}
+
+.kecheng-contenttuankebox .wenz {
+    color: #666;
+    line-height: 0.92rem;
+    text-align: center;
+}
+
+.kecheng-contenttuankebox {
+    background: url("../img/logo41.png") no-repeat;
+    width: 0.92rem;
+    height: 0.92rem;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -0.08rem;
+    left: 0.03rem;;
+    z-index: 100;
+}
+
+.kecheng-content .hide {
+    display: none;
+}
+
+.kecheng-intrzt {
+    padding: 0.12rem 0.18rem;
+    border-radius: 4px;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.6rem;
+}
+
+.kecheng-intrzt.yy {
+    border: 1px solid #d0004e;
+    color: #d0004e;
+}
+
+.kecheng-intrzt.pd {
+    border: 1px solid #e7bc85;
+    color: #e7bc85;
+
+}
+
+.kecheng-intrzt.js {
+    border: 1px solid #777;
+    color: #777;
+}
+
+.kechenggoumai-informationbox .kaitong {
+    color: #e7bc85;
+}
+
+/*私教购买页*/
+.sijiaogoumaiye-informationbox1 span.active {
+
+    color: #d0004e;
+    border: 1px solid #d0004e;
+
+}
+
+.sijiaogoumaiye-informationbox1 span {
+    padding: 0.12rem 0.22rem;
+    font-size: 0.24rem;
+    border: 1px solid #777777;
+    border-radius: 6px;
+    line-height: 1;
+    margin-top: 0.12rem;
+    margin-right: 0.2rem;
+    float: right;
+    color: #777;
+}
+
+/*小团课*/
+.xiaotuanke {
+    padding: 0.25rem 0.2rem 0.3rem 0.2rem;
+    position: relative;
+    border-bottom: 1px solid #282828;
+}
+
+.xiaotuanke-banner {
+    width: 7.04rem;
+    height: 2.82rem;
+}
+
+.xiaotuanke-wenz {
+    color: #7f7f7f;
+    font-size: 0.24rem;
+
+}
+
+.xiaotuanke h2 {
+    font-size: 0.34rem;
+    color: #fff;
+    line-height: 0.74rem;
+}
+
+.xiaotuanke p {
+    line-height: 0.43rem;
+    width: 5.9rem;
+}
+
+.xiaotuanke-btn {
+    padding: 0.12rem 0.18rem;
+    border-radius: 4px;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.35rem;
+    border: 1px solid #d0004e;
+    color: #d0004e;
+}
+
+.kecheng-specificbox {
+    padding-bottom: 1rem;
+}
+
+.sousuo-main {
+    padding-top: 0.82rem;
+}
+
+.sousuo-nodata {
+    font-size: 0.28rem;
+    text-align: center;
+    color: #7f7f7f;
+}
+
+/*莱美预约详情*/
+.leimeiyuyue-erweima {
+    padding-top: 0.6rem;
+    padding-bottom: 0.39rem;
+    background: #222222;
+}
+
+.leimeiyuyue-erweima img {
+    display: block;
+    margin: 0 auto;
+    width: 2.7rem;
+    height: 2.7rem;
+
+}
+
+.leimeiyuyue-erweimaspan {
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    line-height: 0.7rem;
+}
+
+.leimeiyuyue-informationbox {
+
+}
+
+.leimeiyuyue-informationbox .infleft {
+    font-size: 0.28rem;
+    color: #fff;
+    float: left;
+}
+
+.leimeiyuyue-informationbox .infright {
+    font-size: 0.28rem;
+    color: #cccccc;
+    float: right;
+}
+
+.leimeiyuyue-informationbox .infleft2 {
+    font-size: 0.28rem;
+    color: #cccccc;
+    float: left;
+}
+
+.leimeiyuyue-informationbox ul {
+    padding: 0 0.25rem;
+    margin-bottom: 0.2rem;
+    background: #252525;
+
+}
+
+.leimeiyuyue-informationbox li {
+
+    border-bottom: 1px solid #2c2c2c;
+    line-height: 0.74rem;
+    padding-top: 0.2rem;
+    overflow: hidden;
+
+}
+
+.leimeiyuyue-informationbox1 div {
+
+    float: left;
+
+}
+
+.leimeiyuyue-informationbox1 span {
+    font-size: 0.24rem;
+    padding: 0.12rem 0.22rem;
+    color: #d0004e;
+    border-radius: 6px;
+    border: 1px solid #d0004e;
+    float: right;
+    line-height: 1;
+    margin-top: 0.12rem;
+
+}
+
+.leimeiyuyue-informationbox2 .stars {
+    width: 0.34rem;
+    height: 0.34rem;
+    background: url("../img/logo46.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.28rem;
+    display: inline-block;
+}
+
+.leimeiyuyue-informationbox2 .stars.shine {
+    background: url("../img/logo45.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.leimeiyuyue-tip {
+    padding: 0 0.25rem;
+    color: #898989;
+    line-height: 0.52rem;
+    margin-bottom: 0.7rem;
+
+}
+
+.leimeiyuyue-footer {
+    width: 7rem;
+    height: 0.8rem;
+    background: #1e1e1e;
+    border: 1px solid #d0004e;
+    color: #d0004e;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    border-radius: 8px;
+    margin-bottom: 0.3rem;
+}
+
+.leimeiyuyue-footer2 {
+    border: 1px solid #d0004e;
+    width: 7rem;
+    height: 0.8rem;
+    background: #d0004e;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    border-radius: 4px;
+    margin-bottom: 0.3rem;
+}
+
+/*评分提交*/
+.pingfentijiao-starsbox .pingfentijiao-stars {
+    width: 0.34rem;
+    height: 0.34rem;
+    background: url("../img/logo46.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.4rem;
+    display: inline-block;
+}
+
+.pingfentijiao-starsbox .pingfentijiao-stars.shine {
+    background: url("../img/logo45.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.pingfentijiao-banner {
+    width: 7.5rem;
+    height: 2.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pingfentijiao-banner h2 {
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0 0.36rem 0;
+}
+
+.pingfentijiao-starsbox {
+    display: table;
+    margin: 0 auto;
+}
+
+.pingfentijiao-pingjia {
+    padding: 0 0.25rem 0.53rem 0.25rem;
+    background: #222222;
+}
+
+.pingfentijiao-pingjia span {
+    padding: 0 0.3rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.44rem;
+    display: inline-block;
+    border: 1px solid #e7bc85;
+    color: #e7bc85;
+    border-radius: 6px;
+    margin: 0.4rem 0.32rem 0rem 0;
+}
+
+.pingfentijiao-pingjia span.active {
+    background: #e7bc85;
+    color: #000;
+}
+
+.saywordbox {
+    padding: 0.4rem 0.25rem;
+    background: #252525;
+}
+
+.saywordbox .sayword {
+    background: transparent;
+    border: 1px #454545 solid;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 0.3rem;
+    padding: 0.2rem 0.2rem;
+    line-height: 0.36rem;
+}
+
+/*弹框*/
+.zhezhao {
+    /*display: none;*/
+}
+
+.zhezhao2 {
+    display: none;
+}
+
+.zhezhao.show {
+    display: block;
+}
+
+.zhezhao2.show {
+    display: block;
+}
+
+.zhezhaoceng {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+}
+
+.tankuang {
+    width: 4.4rem;
+    padding: 0.48rem 0.3rem 0.4rem 0.3rem;
+    background: #fff;
+    border-radius: 0.22rem;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    z-index: 101;
+    margin-left: -2.6rem;
+
+}
+
+.tankuang p {
+    line-height: 0.47rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    padding: 0 0.24rem;
+    color: #333;
+    text-align: center;
+}
+
+.tankuang a.pingfen {
+    color: #e7bc85;
+    text-align: center;
+    display: block;
+}
+
+.tankuangtop {
+    background: url("../img/logo47.png") no-repeat;
+    width: 1.2rem;
+    height: 1.4rem;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.tankuangtop2 {
+    background: url("../img/logo54.png") no-repeat;
+    width: 1.2rem;
+    height: 1.4rem;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.tankuang-footer2 {
+    width: 100%;
+    height: 0.64rem;
+    background: #fff;
+    border: 1px solid #d0004e;
+    color: #d0004e;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+    border-radius: 8px;
+}
+
+.tankuang-footer1 {
+    border: 1px solid #d0004e;
+    width: 100%;
+    height: 0.64rem;
+    background: #d0004e;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+    border-radius: 8px;
+    margin-bottom: 0.2rem;
+}
+
+/*我的预约*/
+
+.myorder-bannermaint {
+    font-size: 0.6rem;
+    color: #e7bc85;
+    margin-bottom: 0.22rem;
+}
+
+.myorder-bannermain span {
+    display: block;
+    text-align: center;
+    line-height: 1;
+}
+
+.myorder-bannermainb {
+    color: #7f7f7f;
+}
+
+.marginright120 {
+    margin-right: 1.2rem;
+}
+.marginleftright{
+    margin-left:0.8rem;
+    margin-right: 0.8rem;
+}
+.myorder-bannermain{
+    width:33.3%;
+}
+.myorder-banner {
+    padding: 0.75rem 0.5rem 0 0.5rem;
+    width: 6.5rem;
+    height: 1.75rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my-ordernav {
+    height: 0.9rem;
+    background: #252525;
+}
+
+.my-ordernav li {
+    float: left;
+    line-height: 0.9rem;
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+.myorder-maint {
+    margin-bottom: 0.25rem;
+}
+
+.my-ordernav li.active {
+    color: #d0004e;
+}
+
+.myorder-maintspan1 {
+    color: #7f7f7f;
+    line-height: 1;
+}
+
+.myorder-maintspan2 {
+    color: #d0004e;
+    font-size: 0.28rem;
+    line-height: 1;
+}
+
+.myorder-maintspan3 {
+    color: #ccc;
+    line-height: 1;
+}
+
+.myorder-maintspan4 {
+    color: #e7bc85;
+    line-height: 1;
+}
+
+.myorder-main1 {
+    padding: 0.34rem 0.22rem;
+    border-bottom: 1px solid #282828;
+}
+
+/*修改个人信息*/
+.xiugaigerenxx-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 7.5rem;
+    height: 3.5rem;
+}
+
+.xiugaigerenxx-banner img {
+    width: 1.34rem;
+    height: 1.34rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0.88rem 0 0.23rem 0;
+    border-radius: 50%;
+}
+
+.xiugaigerenxx-banner span {
+    display: block;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+}
+
+.xiugaigerenxx-loginbox {
+    padding: 0 0.85rem;
+    margin-top: 0.45rem;
+}
+
+.xiugaigerenxx-loginbox li {
+
+    line-height: 0.8rem;
+
+    margin-bottom: 0.3rem;
+}
+
+.xiugaigerenxx-loginbox li input {
+    background: #252525;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    width: 100%;
+    color: #f7f7f7;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    padding-left: 0.32rem;
+
+}
+
+.posrelative {
+    position: relative;
+}
+
+.xiugaigerenxx-loginbox .yanzhengma {
+    position: absolute;
+    right: 0.32rem;
+    top: 0;
+    color: #e7bc85;
+}
+
+.xiugaigerenxx-btnbox {
+    padding: 0 0.85rem;
+    height: 0.8rem;
+
+}
+
+.xiugaigerenxx-btn {
+    background: #d0004e;
+    border-radius: 4px;
+    font-size: 0.32rem;
+    color: #fff;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.shouyaoyemian-title {
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #404040;
+}
+
+.shouyaoyemian-title h2 {
+    font-size: 0.36rem;
+    margin-top: 1rem;
+    color: #cbcbcb;
+    text-align: center;
+    line-height: 1;
+}
+
+.shouyaoyemian-title p {
+    padding: 0 0.8rem;
+    margin-top: 0.27rem;
+    color: #e7bc85;
+    line-height: 0.47rem;
+    text-align: center;
+}
+
+.shouyaoyemian-loginbox {
+    padding: 0 0.85rem;
+    margin-top: 1rem;
+}
+
+.shouyaoyemian-loginbox li {
+    border-bottom: 1px solid #515151;
+    line-height: 0.92rem;
+}
+
+.shouyaoyemian-loginbox li input {
+    background: none;
+    border: none;
+    line-height: 0.92rem;
+    font-size: 0.24rem;
+    width: 100%;
+    color: #f7f7f7;
+}
+
+.posrelative {
+    position: relative;
+}
+
+.shouyaoyemian-loginbox .yanzhengma {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #e7bc85;
+}
+
+.shouyaoyemian-btnbox {
+    padding: 0 0.85rem;
+    height: 0.8rem;
+    margin-top: 0.55rem;
+
+}
+
+.shouyaoyemian-btn {
+    background: #d0004e;
+    border-radius: 4px;
+    font-size: 0.32rem;
+    color: #fff;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.xiangxiguize-title {
+    background: #252525;
+    margin-bottom: 0.2rem;
+}
+
+.xiangxiguize-title h2 {
+    padding: 0.4rem 0 0.3rem 0;
+    font-size: 0.32rem;
+    text-align: center;
+    color: #fff;
+}
+
+.xiangxiguize-title p {
+    padding: 0 0.26rem 0.2rem 0.26rem;
+    line-height: 0.48rem;
+    text-align: center;
+    color: #919191;
+
+}
+
+.xiangxiguize-title p em {
+    color: #d0004e;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.xiangxiguize-main {
+}
+
+.xiangxiguize-main .xiangxiguize-maintitle {
+    line-height: 0.87rem;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    background: #252525;
+
+}
+
+.xiangxiguize-main .xiangxiguize-maintitle em {
+    font-style: normal;
+    color: #e7bc85;
+}
+
+.xiangxiguize-int {
+    padding: 0.18rem 0.24rem 0.18rem 0.24rem;
+    overflow: hidden;
+    border-top: 1px solid #2d2d2d;
+    background: #252525;
+    margin-bottom: 0.02rem;
+}
+
+.xiangxiguize-intl {
+    width: 1.14rem;
+    height: 1.14rem;
+    float: left;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+}
+
+.xiangxiguize-intr {
+    float: left;
+    color: #fff;
+    line-height: 1;
+    margin-top: 0.14rem;
+}
+
+.xiangxiguize-intr h2 {
+    font-size: 0.34rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+
+.xiangxiguize-intr h3 {
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #7f7f7f;
+}
+
+.xiangxiguize-intr span {
+    color: #d0004e;
+    font-size: 0.24rem;
+}
+
+.xiangxiguize-intrr {
+    float: right;
+    color: #d0004e;;
+    font-size: 0.28rem;
+    margin-top: 0.3rem;
+}
+
+/*邀请奖励*/
+.yaoqingjiangli-title {
+    width: 7.5rem;
+    height: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.yaoqingjiangli-chakan {
+    display: block;
+    line-height: 0.73rem;
+    text-align: center;
+    color: #e7bc85;
+    background: #252525;
+    margin-bottom: 0.2rem;
+}
+
+/*评分记录*/
+
+.pingfenjilu-maint {
+    margin-bottom: 0.25rem;
+}
+
+.pingfenjilu-maintspan1 {
+    color: #fff;
+    line-height: 1;
+    font-size: 0.28rem;
+}
+
+.pingfenjilu-maintspan2 {
+    color: #7f7f7f;
+    font-size: 0.24rem;
+    line-height: 1;
+}
+
+.pingfenjilu-maintspan3 {
+    color: #ccc;
+    line-height: 1;
+}
+
+.pingfenjilu-maintspan4 {
+    color: #e7bc85;
+    line-height: 1;
+}
+
+.pingfenjilu-maintspan4.active {
+    color: #d0004e;
+    line-height: 1;
+}
+
+.pingfenjilu-main1 {
+    padding: 0.4rem 0.22rem;
+    border-bottom: 1px solid #282828;
+}
+
+/*资金明细*/
+
+.zijinmingxi-maint {
+    margin-bottom: 0.25rem;
+}
+
+.zijinmingxi-maintspan1 {
+    color: #fff;
+    line-height: 1;
+    font-size: 0.28rem;
+}
+
+.zijinmingxi-maintspan1.active {
+    color: #d0004e;
+}
+
+.zijinmingxi-maintspan2 {
+    color: #7f7f7f;
+    font-size: 0.24rem;
+    line-height: 1;
+}
+
+.zijinmingxi-maintspan3 {
+    color: #ccc;
+    line-height: 1;
+}
+
+.zijinmingxi-maintspan4 {
+    color: #e7bc85;
+    line-height: 1;
+}
+
+.zijinmingxi-maintspan4.active {
+    color: #d0004e;
+    line-height: 1;
+}
+
+.zijinmingxi-main1 {
+    padding: 0.4rem 0.22rem;
+    border-bottom: 1px solid #282828;
+}
+
+.zijinmingxi-rechargeprice {
+    line-height: 1rem;
+    padding: 0 0.34rem;
+    border-bottom: 1px solid #303030;
+    background: #252525;
+}
+
+.zijinmingxi-rechargeprice2 {
+    line-height: 1rem;
+    padding: 0 0.34rem;
+    margin-bottom: 0.2rem;
+    background: #252525;
+}
+
+.zijinmingxi-rechargepricespan1 {
+    font-size: 0.28rem;
+    color: #fff;
+    margin-right: 0.2rem;
+}
+
+.zijinmingxi-rechargepricespan2 {
+    color: #d0004e;
+}
+
+.logo50 {
+    background: url("../img/logo50.png") no-repeat;
+    width: 0.28rem;
+    height: 0.38rem;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 0.32rem;
+    margin-right: 0.2rem;
+}
+
+.zijinmingxi-nav {
+    line-height: 1rem;
+    background: #252525;
+}
+
+.zijinmingxi-navl {
+    text-align: center;
+    width: 49%;
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+.zijinmingxi-navl.active {
+    color: #d0004e;
+}
+
+.zijinmingxi-navl-shu {
+    width: 1px;
+    height: 0.7rem;
+    margin-top: 0.14rem;
+    background: #303030;
+    margin-left: 0.06rem;
+}
+
+/*.zijinmingxi-navr{*/
+/*width:49%;*/
+/*text-align: center;*/
+/*font-size: 0.28rem;*/
+/*color: #fff;*/
+
+/*}*/
+
+/*个人信息*/
+.gerenxx-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 7.5rem;
+    height: 4rem;
+    position: relative;
+}
+
+.gerenxx-banner img {
+    width: 1.34rem;
+    height: 1.34rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0.88rem 0 0.23rem 0;
+    border-radius: 50%;
+}
+
+.gerenxx-name {
+    display: block;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+}
+
+.gerenxx-phone {
+    font-size: 0.24rem;
+    color: #cacaca;
+    display: block;
+    text-align: center;
+}
+
+.gerenxx-xiugai {
+    background: url("../img/logo51.png") no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+}
+
+.gerenxx-nav {
+    height: 1.6rem;
+    background: #252525;
+}
+
+.gerenxx-navl {
+    text-align: center;
+    width: 49%;
+    font-size: 0.28rem;
+    color: #fff;
+    padding-top: 0.2rem;
+}
+
+.gerenxx-navl span {
+    display: block;
+    text-align: center;
+}
+
+.gerenxx-navlspan1 {
+    font-size: 0.5rem;
+    color: #e7bc85;
+
+}
+
+.gerenxx-navlspan2 {
+    font-size: 0.24rem;
+    color: #fff;
+
+}
+
+.gerenxx-navl.active {
+    color: #d0004e;
+}
+
+.gerenxx-navl-shu {
+    width: 1px;
+    height: 0.7rem;
+    margin-top: 0.34rem;
+    background: #303030;
+    margin-left: 0.06rem;
+}
+
+.gerenxx-mainbox {
+    margin-bottom: 1rem;
+}
+
+.gerenxx-mainbox ul li {
+    line-height: 1rem;
+    padding: 0 0.25rem;
+    border-bottom: 1px solid #2c2c2c;
+
+}
+
+.gerenxx-mainbox ul {
+
+}
+
+.gerenxx-mainboxspan1 {
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+.gerenxx-jt {
+    background: url("../img/logo39.png") no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.3rem;
+}
+
+/*充值页面*/
+
+.chongzhi-top img {
+    width: 1.04rem;
+    height: 1.04rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    margin-right: 0.33rem;
+    border-radius: 50%;
+}
+
+.chongzhi-top {
+    padding: 0.29rem 0.86rem 0.29rem 0.25rem;
+    background: #252525;
+    margin-bottom: 0.22rem;
+}
+
+.chongzhi-xxbox {
+    margin-top: 0.15rem;
+}
+
+.chongzhi-name {
+    font-size: 0.28rem;
+    color: #fff;
+    display: block;
+    line-height: 1;
+}
+
+.chongzhi-phone {
+    color: #7f7f7f;
+    display: block;
+    line-height: 1;
+    margin-top: 0.2rem;
+}
+
+.chongzhi-yue {
+    display: block;
+    color: #d0004e;
+    margin-top: 0.28rem;
+}
+
+.chongzhi-main {
+    background: #252525;
+    padding: 0 0.25rem;
+}
+
+.chongzhi-edu {
+    color: #d0004e;
+    line-height: 0.84rem;
+    font-size: 0.28rem;
+    margin-bottom: 0.16rem;
+}
+
+.chongzhi-eduprice {
+    width: 3.34rem;
+    height: 1.2rem;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.chongzhi-edupricespan1 {
+    margin-top: 0.2rem;
+    font-size: 0.34rem;
+    color: #999;
+    text-align: center;
+    display: block;
+    line-height: 1;
+    margin-bottom: 0.15rem;
+}
+
+.chongzhi-edupricespan2 {
+    color: #999;
+    text-align: center;
+    display: block;
+    line-height: 1;
+
+}
+
+.chongzhi-eduzhekou {
+    color: #999;
+    text-align: center;
+    line-height: 0.54rem;
+}
+
+.chongzhi-main {
+    padding-bottom: 1.1rem;
+}
+
+.chongzhi-mainulbox {
+    overflow: hidden;
+}
+
+.chongzhi-main ul {
+
+}
+
+.chongzhi-main ul li {
+    margin-bottom: 0.3rem;
+
+}
+
+.chongzhi-main ul li div.active .chongzhi-eduprice {
+    border: 1px solid #d0004e;
+}
+
+.chongzhi-main ul li div.active .chongzhi-edupricespan1 {
+    color: #d0004e;
+}
+
+.chongzhi-main ul li div.active .chongzhi-edupricespan2 {
+    color: #d0004e;
+}
+
+.chongzhi-main ul li div.active .chongzhi-eduzhekou {
+    color: #d0004e;
+}
+
+.chongzhi-agreebox {
+    text-align: center;
+}
+
+.chongzhi-agree {
+    display: inline-block;
+}
+
+.chongzhi-agree a.checkboxgou {
+    background: url("../img/logo52.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    margin-right: 0.2rem;
+}
+
+.chongzhi-agree a.checkboxgou.active {
+    background: url("../img/logo53.png") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.chongzhi-agree span {
+    color: #d0004e;
+    line-height: 0.3rem;
+    float: left;
+    text-align: center;
+}
+
+.chongzhi-agreebox {
+    margin-top: 0.5rem;
+    margin-bottom: 0.44rem;
+}
+
+.chongzhibtn {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    background: #d0004e;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+}
+
+.chongzhi-tip {
+    margin-top: 0.5rem;
+    color: #7f7f7f;
+    text-align: center;
+}
+
+/*店员登陆*/
+.dianyuandenglu-banner img {
+    width: 7.5rem;
+    height: 3.5rem;
+}
+
+.dianyuandenglu-out {
+    background: #d0004e;
+    color: #fff;
+    font-size: 0.32rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    border-radius: 4px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.qiandaojilu-int {
+    padding: 0.18rem 0.24rem 0.18rem 0.24rem;
+    overflow: hidden;
+    border-top: 1px solid #2d2d2d;
+    background: #252525;
+    margin-bottom: 0.02rem;
+}
+
+.qiandaojilu-intl {
+    width: 1.14rem;
+    height: 1.14rem;
+    float: left;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+}
+
+.qiandaojilu-intr {
+    float: left;
+    color: #fff;
+    line-height: 1;
+    margin-top: 0.14rem;
+}
+
+.qiandaojilu-intr h2 {
+    font-size: 0.34rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+
+.qiandaojilu-intr h3 {
+    line-height: 1;
+    margin-bottom: 0.2rem;
+    color: #7f7f7f;
+}
+
+.qiandaojilu-intr span {
+    color: #d0004e;
+    font-size: 0.24rem;
+}
+
+.qiandaojilu-intrr h4 {
+    color: #d0004e;
+    font-size: 0.28rem;
+    line-height: 1;
+}
+
+.qiandaojilu-intrr h3 {
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+}
+
+.qiandaojilu-intrr {
+    float: right;
+    margin-top: 0.14rem;
+}
+
+/*店员核销*/
+.dianyuanhexiao-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 7.5rem;
+    height: 3.5rem;
+}
+
+.dianyuanhexiao-loginbox {
+    padding: 0 0.85rem;
+    margin-top: 0.45rem;
+}
+
+.dianyuanhexiao-loginbox li {
+
+    line-height: 0.8rem;
+
+    margin-bottom: 0.3rem;
+}
+
+.dianyuanhexiao-loginbox li input {
+    background: #252525;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    width: 100%;
+    color: #f7f7f7;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    padding-left: 0.32rem;
+
+}
+
+.dianyuanhexiao-btnbox {
+    padding: 0 0.85rem;
+    height: 0.8rem;
+
+}
+
+.dianyuanhexiao-btn {
+    background: #d0004e;
+    border-radius: 4px;
+    font-size: 0.32rem;
+    color: #fff;
+    line-height: 0.8rem;
+    text-align: center;
+}
+.xiugaibtn{
+    border:none;
+    display: block;
+    width:100%;
+}
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+.imgwidth div{
+    width: 7.5rem;
+    height: 4.68rem;
+}
+.kecheng-banner .swiper-wrapperbox{
+    width:7.5rem;
+    height:4.65rem;
+}
+.kecheng-banner .swiper-wrapperbox .swiper-slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:4.65rem;
+    background-position: center;
+}
+.kecheng-banner .swiper-container{
+    height: auto;
+}

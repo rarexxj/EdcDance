@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-language" content="zh-CN"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="杭州博采网络科技股份有限公司-高端网站建设-http://www.bocweb.cn"/>
+    <meta name="renderer" content="webkit">
+    <title>EDC Funky Dance</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <script src="../../js/plug-in/jquery-1.11.1.min.js"></script>
+    <script src="../../js/main.js"></script>
+</head>
+
+<body style="background: #fff">
+<ul class="shouyaoyemian-loginbox">
+    <li class="clearfix">
+        <span class="fl teltitle">原手机号</span>
+        <input type="text" placeholder="请输入账号" class="fl yuantel">
+    </li>
+    <li class="clearfix ">
+        <span class="fl teltitle">新手机号</span>
+        <input type="text" placeholder="请输入新密码" class="fl xintel">
+    </li>
+    <li class="posrelative clearfix">
+        <span class="fl teltitle">验证码</span>
+        <input type="text" placeholder="输入验证码" class="fl telyanzheng">
+        <input type="button" class="yanzhengma fr" value="获取验证码">
+    </li>
+</ul>
+<div class="shouyaoyemian-btnbox">
+    <div class="shouyaoyemian-btn">确认</div>
+</div>
+
+</body>
+<script>
+
+$(function () {
+//   验证码点击
+    $('.yanzhengma').on('click',function () {
+        CountDown($('.yanzhengma'))
+    })
+
+    $('.tianxie-btn').on('click',function () {
+        if ($('.yuantel').val()=="") {
+            $.oppo('请输入原手机号',1)
+            return false;
+        }
+        if ($('.xintel').val()=="") {
+            $.oppo('请输入新手机号',1)
+            return false;
+        }
+        if ($('.telyanzheng').val()=="") {
+            $.oppo('请输入验证码',1)
+            return false;
+        }
+
+    })
+
+})
+</script>
+</html>
